@@ -1,0 +1,275 @@
+#cover-img{
+  height: 75vh;
+}
+#body{
+  height: fit-content;
+  width: fit-content;
+}
+#logo-text{
+  font-size: 50px;
+  font-family: spartan;
+  position: absolute;
+  bottom: 80vh;
+  left: 16vh;
+  color: white;
+  font-weight: bold;
+}
+#title-text{
+  position: absolute;
+  bottom: 60vh;
+  left: 16vh;
+  font-size: 50px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: white;
+  
+
+}
+#description-text{
+  position: absolute;
+  bottom: 50vh;
+  left: 16vh;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+#form{
+  height: 70vh;
+  width: 70vh;
+  background-color: white;
+  position: relative;
+  bottom: 45vh;
+  left: 90vh;
+}
+#name{
+  margin-top: 5vh;
+  height: 6vh;
+  width: 50vh;
+  background-color: white;
+  border: none;
+  margin-left: 10vh;
+  font-size: 20px;
+
+}
+#email{
+  
+  height: 6vh;
+  width: 50vh;
+  background-color: white;
+  border: none;
+  margin-left: 10vh;
+  font-size: 20px;
+}
+#month{
+position: relative;
+left: 20vh;
+top: 6vh;
+
+
+
+}
+.calendar{
+background-color: white;
+font-size: 20px;
+border: none;
+
+width: 9vh;
+padding: 1vh;
+text-align: center;
+
+}
+#pick-date{
+  font-family: spartan;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #111111;
+  position: relative;
+  left: 10vh;
+  top: 6vh;
+}
+#day{
+  position: relative;
+  left: 20vh;
+top: 6vh;
+}
+#year{
+  position: relative;
+  left: 21vh;
+  top: 6vh;
+}
+#pick-time{
+  font-family: spartan;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #111111;
+  position: relative;
+  left: 5vh;
+  top: 6vh;
+  padding-top: 3vh;
+}
+#hour{
+  position: relative;
+  left: 15vh;
+  top: 6vh;
+
+}
+#min{
+  position: relative;
+  left: 15vh;
+  top: 6vh;
+  
+
+}
+
+#btn2{
+  background: black;
+border: 1px solid rgb(0, 0, 0);
+color: rgb(247, 247, 247);
+margin-top: 1vh;
+position: absolute;
+bottom: 50vh;
+left: 100vh;
+height: 7vh;
+width: 28vh;
+
+}
+#btn-mr{
+  height: 7vh;
+  width: 53vh;
+  background-color: black;
+  text-align: center;
+  border: none;
+  position: relative;
+  left: 10vh;
+  top: 16vh;  
+  color: white;
+  font-size: 20px;
+  font-family: spartan;
+}
+#btn-mr:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#form{
+  z-index: 100;
+  box-shadow:1px 1px 10px black ;
+  
+}
+#main-f{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+  align-items: center;
+  
+}
+#footer-text{
+display: flex;
+justify-content: flex-end;
+margin-right: 15%;
+}
+#footer-logo{
+  margin-left: 15%;
+  font-family: spartan;
+  font-size: 50px;
+  margin-top: 3%;
+  
+}
+#timings{
+  margin-left: 5%;
+  text-wrap: nowrap;
+}
+#address{
+  text-wrap: nowrap;
+  margin-right: 10%;
+  margin-top: 0.2%;
+}
+#footer{
+  background-color: black;
+  color: white;
+  
+  
+
+}
+#logo-page{
+  height: fit-content;
+}
+#main-f{
+  bottom: 30vh;
+}
+#name {
+  border-bottom: 2px solid #C6C6C6;
+}
+#day{
+  border-bottom: 2px solid #C6C6C6;
+}
+#year{
+  border-bottom: 2px solid #C6C6C6;
+}
+#month{
+  border-bottom: 2px solid #C6C6C6;
+}
+#hour{
+  border-bottom: 2px solid #C6C6C6;
+}
+#min{
+  border-bottom: 2px solid #C6C6C6;
+}
+#email{
+  border-bottom: 2px solid #C6C6C6;
+}
+#time{
+  margin: 5vh;
+  display: flex;
+ 
+}
+footer{
+  background-color: black;
+}
+.Noguests {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid dark-gray;
+  width: 263px;
+  height: 45px;
+  border-bottom: 2px solid #C6C6C6;
+  margin-top: 120px;
+}
+
+.Noguests p {
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.Noguests button {
+  background-color: white;
+  border: none;
+  height: 20px;
+  margin: 0 auto;
+  color: black;
+  width: 20px;
+}
+
+#make-reservation{
+  margin-top: -100px;
+}
+#am-pm {
+  width: 88px;
+  border: none;
+  border-bottom: 1px solid var(--dark-gray);
+  height: 45px;
+  font-size: 18px;
+  left:10% ;
+  
+}
+
+#ampm-option{
+  border: none;
+  
+}
