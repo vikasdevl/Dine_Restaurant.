@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="booking-css.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body id="body">
+  <div id="logo-page">
+    <img id="cover-img" src="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/03479a3952a4415d8e5e23e7ce9e61ce.jpg">
+    <div id="logo-container">
+      <p id="logo-text">dine</p>
+    </div>
+    <div id="title">
+      <p id="title-text">
+        Reservations
+      </p>
+    </div>
+    <div id="des">
+      <p id="description-text">
+        We can’t wait to host you. If you have any special <br>requirements please feel free to call on the phone<br> number below. We’ll be happy to accommodate you.
+      </p>
+    </div>
+    <div id="form">
+      <form>
+        <input  id="name" for="name" type="text" placeholder="Name" required>
+
+                
+        <input id="email" for="email" type="email" placeholder="Email" required>
+
+        <div id="date">
+          <label id="pick-date">Pick a date</label>
+
+          <input id="month" type="number" name="month"  placeholder="MM" min="01" max="12" class="calendar" required/>
+          <input id="day" type="number" name="day"  placeholder="DD" min="01" max="31" class="calendar" required/>
+          <input id="year" type="number" name="year"   placeholder="YYYY" min="2000"  class="calendar" required/>
+        </div>
+        <div id="time">
+          <label id="pick-time">Pick a time</label>
+          <input id="hour" type="number" name="hour"   placeholder="HH" min="00" max="11" class="calendar" required/>
+          <input id="min" type="number" name="min"   placeholder="MM" min="00" max="59" class="calendar"required/>
+          <select name="dayNight" id="am-pm" required>
+            <option id="ampm-option" value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+
+        </div>
+        <div class="Noguests">
+          <button id="minus-guest-button">-</button>
+          <p><span id="guest-number">4</span> people</p>
+          <button id="plus-guest-button">+</button>
+        </div>
+        
+        <div id="make-reservation">
+          <button id="btn-mr">MAKE RESERVATION</button>
+        </div>
+      </form>
+    </div>
+  </div> 
+  <footer></footer>
+</body>
+</html>
