@@ -259,17 +259,3 @@ footer{
 #make-reservation{
   margin-top: -100px;
 }
-#am-pm {
-  width: 88px;
-  border: none;
-  border-bottom: 1px solid var(--dark-gray);
-  height: 45px;
-  font-size: 18px;
-  left:10% ;
-  
-}
-
-#ampm-option{
-  border: none;
-  
-}
