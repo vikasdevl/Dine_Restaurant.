@@ -83,10 +83,10 @@ body{
   align-items: center;
   
 }
-#enj-img{
+/* #enj-img{
   position: absolute;
   bottom: 50vh;
-}
+} */
 #enjoy-text{
   margin-left: 10%;
   
@@ -223,7 +223,7 @@ height: 100%;
   font-weight: 400;
 }
 footer{
-  height: 50vh;
+  height: 40vh;
   gap: 1vh;
   background-color: black;
   color: white;
@@ -370,9 +370,417 @@ button:hover{
   position: relative;
   bottom: 28vh;
   left: 113vh;
+  width: fit-content;
 }
 send:hover{
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
 
+  #section1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 800px;
+  
+  
+  }
+  #first-container{
+    margin-left: 10%;
+    
+   
+  
+  }
+  
+  
+
+  #feature-container{
+    position: relative;
+    margin-left: 10%;
+
+  
+    
+  
+  }
+  #Enjoyable{
+    display: flex;
+    align-items: center;
+    
+  }
+  /* #enj-img{
+    position: absolute;
+    bottom: 50vh;
+  } */
+  #enjoy-text{
+    margin-left: 2%;
+    
+  }
+  #local-i{
+  height: 40vh;
+  width: 30vh;
+  margin-bottom: 10px;
+
+  
+  
+  
+  
+  }
+  #locally{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+  }
+  #local-text{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    
+  }
+  #section3{
+    background-color: rgb(0, 0, 0);
+    margin-top: -220px;
+  }
+  .dishesheadingstyle{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    font-family: spartan;
+    color: white;
+    
+  }
+  .dishesdesstyle{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    font-family: spartan;
+    color:white;
+  }
+  #highlights{
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+   right: 90px;
+    
+
+  }
+  .di{
+    height: 10vh;
+    width: 12vh;
+  }
+  #dishes{
+    position: relative;
+    height: 470px;
+    width: 370px;
+    
+    
+  }
+  .dish{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .dish-text{
+    position: relative;
+    right: 10px;
+   
+    
+  }
+  
+  #highlights-text{
+    height: 30%;
+    margin-top: 10%;
+  }
+  #fg-i{
+    height: 50vh;
+  }
+  #family-gathering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    margin-top: -50px;
+    
+  
+  }
+  #family-gathering-text{
+   position: relative;
+   right: 90px;
+  }
+  #ready{
+  display: flex;
+  
+  
+  justify-content: space-between;
+  height: 100%;
+    
+    
+  
+    
+  }
+  #section5{
+    background-image: url("https://d3dyfaf3iutrxo.cloudfront.net/general/upload/03479a3952a4415d8e5e23e7ce9e61ce.jpg");
+    
+    
+    
+  }
+  #ready-title{
+    color: white;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  #first-img img{
+    width: 100%;
+    height: 800px;
+    margin-left: 0%;
+  }
+  .f-heading{
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.8px;
+    
+    
+    font-family: spartan;
+    
+    color: white;
+    font-weight: 400;
+  }
+  footer{
+    height: 50vh;
+    gap: 7vh;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #loc{
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    
+  }
+  #phone{
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    
+  }
+  
+  
+  
+  #footer-text{
+    color: rgb(245, 240, 232);
+    margin-left: 5%;
+    width: 300px;
+  
+  }
+  
+  #msg-box{
+    color: white;
+    margin-right: 10%;
+    height: 50;
+    
+  }
+  #a-d{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  #c-u{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -0.5%;
+    
+   
+  
+  }
+  #email{
+    margin-top: 1%;
+    height: 10%;
+    width: 50vh;
+    border-radius: 10px;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    border: none;
+    background-color: #3B3B3B;
+    
+  }
+  #emailic{
+    margin-top: 1%;
+  
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+  
+    
+  }
+  #name{
+    height: 10%;
+    width: 50vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #3B3B3B;
+    margin-bottom: 3%;
+    
+  }
+  #msg{
+    height: 10%;
+    width: 50vh;
+    border-radius: 10px;
+    margin-top: 5%;
+    border: none;
+    background-color: #3B3B3B;
+  }
+  #send{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+  }
+  .buttonw {
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 64px;
+    width: 245px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: black;
+    border: 1px solid white;
+  }
+  .buttont{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 64px;
+    width: 245px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  #ready-title{
+    display: flex;
+    gap: 30px;
+  
+  }
+  button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 1s;
+    cursor: pointer;
+  }
+  #send{
+    padding: 3%;
+    height: 11%;
+    width: 20%;
+    background-color: #FF7B4C;
+    border: none;
+    color: white;
+  }
+  #btn-FG{
+    margin-top: 10%;
+  }
+  #des-i{
+    position: relative;
+    bottom: 24vh;
+    left: 4vh;
+    
+  }
+  #des-i2{
+    position: relative;
+    bottom: 20vh;
+    left: 53vh;
+    
+    
+
+  }
+  send:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  #enj-img img{
+    height: 700px;
+    width: 500px;
+    margin-top: 30px;
+    left: 5px;
+  }
+  #f-icon{
+    color: white;
+    font-size: 40px;
+    font-family: spartan;
+    font-weight: lighter;
+    line-height: 72px;
+    position: absolute;
+    top: 5%;
+    font-weight: 700;
+    
+  
+  }
+ 
+  .headingbb{
+    font-size: 20px;
+    line-height: 56px;
+    font-family: spartan;
+    letter-spacing: -0.5px;
+    color: white;
+    font-weight: 600;
+    
+  }
+  .descriptionbb{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    text-wrap: nowrap;
+  }
+  .descriptionwb{
+    color: #242B37;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    text-wrap: nowrap;
+  }
+  .enj-heading p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: spartan;
+    color: #242B37;
+    font-weight: 100;
+  }
+  
+  
+}
